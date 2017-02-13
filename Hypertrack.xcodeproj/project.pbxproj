@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3537FADA1E50B63F0070F6A6 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3537FAD91E50B63F0070F6A6 /* data.json */; };
 		35FB99A41E508BBD003D9780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB99A31E508BBD003D9780 /* main.m */; };
 		35FB99A71E508BBD003D9780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB99A61E508BBD003D9780 /* AppDelegate.m */; };
 		35FB99AA1E508BBD003D9780 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FB99A91E508BBD003D9780 /* ViewController.m */; };
 		35FB99AD1E508BBD003D9780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FB99AB1E508BBD003D9780 /* Main.storyboard */; };
 		35FB99AF1E508BBD003D9780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FB99AE1E508BBD003D9780 /* Assets.xcassets */; };
 		35FB99B21E508BBD003D9780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FB99B01E508BBD003D9780 /* LaunchScreen.storyboard */; };
+		52D87C008373C474BA1F3FA6 /* libPods-Hypertrack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 319044DA830171EBFC306A86 /* libPods-Hypertrack.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		319044DA830171EBFC306A86 /* libPods-Hypertrack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hypertrack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3537FAD91E50B63F0070F6A6 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		35FB999F1E508BBD003D9780 /* Hypertrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypertrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FB99A31E508BBD003D9780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35FB99A51E508BBD003D9780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		35FB99AE1E508BBD003D9780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35FB99B11E508BBD003D9780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35FB99B31E508BBD003D9780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2EC8E06E4FE5983202EC92 /* Pods-Hypertrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypertrack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hypertrack/Pods-Hypertrack.release.xcconfig"; sourceTree = "<group>"; };
+		7ACE23E4DF1A3B52D915FE99 /* Pods-Hypertrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypertrack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hypertrack/Pods-Hypertrack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D87C008373C474BA1F3FA6 /* libPods-Hypertrack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				35FB99A11E508BBD003D9780 /* Hypertrack */,
 				35FB99A01E508BBD003D9780 /* Products */,
+				7FDDDA29641584FF7B9CD309 /* Pods */,
+				F6B698A455F8E83C6AFEC469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +75,7 @@
 				35FB99AE1E508BBD003D9780 /* Assets.xcassets */,
 				35FB99B01E508BBD003D9780 /* LaunchScreen.storyboard */,
 				35FB99B31E508BBD003D9780 /* Info.plist */,
+				3537FAD91E50B63F0070F6A6 /* data.json */,
 				35FB99A21E508BBD003D9780 /* Supporting Files */,
 			);
 			path = Hypertrack;
@@ -79,6 +89,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7FDDDA29641584FF7B9CD309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE23E4DF1A3B52D915FE99 /* Pods-Hypertrack.debug.xcconfig */,
+				3E2EC8E06E4FE5983202EC92 /* Pods-Hypertrack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6B698A455F8E83C6AFEC469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				319044DA830171EBFC306A86 /* libPods-Hypertrack.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35FB99B61E508BBD003D9780 /* Build configuration list for PBXNativeTarget "Hypertrack" */;
 			buildPhases = (
+				914B247D4F50F7C79A5BE30F /* [CP] Check Pods Manifest.lock */,
 				35FB999B1E508BBD003D9780 /* Sources */,
 				35FB999C1E508BBD003D9780 /* Frameworks */,
 				35FB999D1E508BBD003D9780 /* Resources */,
+				61D431DA0C9ACD33719CE6B7 /* [CP] Embed Pods Frameworks */,
+				50E257FE6FD0DE8FC927E26C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,10 +170,59 @@
 				35FB99B21E508BBD003D9780 /* LaunchScreen.storyboard in Resources */,
 				35FB99AF1E508BBD003D9780 /* Assets.xcassets in Resources */,
 				35FB99AD1E508BBD003D9780 /* Main.storyboard in Resources */,
+				3537FADA1E50B63F0070F6A6 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50E257FE6FD0DE8FC927E26C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hypertrack/Pods-Hypertrack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D431DA0C9ACD33719CE6B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hypertrack/Pods-Hypertrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		914B247D4F50F7C79A5BE30F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		35FB999B1E508BBD003D9780 /* Sources */ = {
@@ -268,6 +347,7 @@
 		};
 		35FB99B71E508BBD003D9780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACE23E4DF1A3B52D915FE99 /* Pods-Hypertrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hypertrack/Info.plist;
@@ -279,6 +359,7 @@
 		};
 		35FB99B81E508BBD003D9780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2EC8E06E4FE5983202EC92 /* Pods-Hypertrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hypertrack/Info.plist;
@@ -307,6 +388,7 @@
 				35FB99B81E508BBD003D9780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
